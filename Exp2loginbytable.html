@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Components/wallpaperflare.com_wallpaper.jpg" type="image/x-icon">
     <title>Document</title>
+    <style>
+        .shadow-btn {
+        color:black;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .shadow-btn:hover {
+        box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.4);
+        }
+    </style>
 </head>
 <body>
     
@@ -15,10 +28,10 @@
                 <th colspan="4">WEBSITE NAME</th>
             </tr>
             <tr align="center">
-                <td><b>Home</b></td>
-                <td>Login</td>
-                <td>Regestration</td>
-                <td>Catalogue</td>
+                <td><a href="Exp1bytables.html" style="text-decoration: none;">Home</a></td>
+                <td><a href="Exp2loginbytable.html" style="text-decoration: none;">Login</a></td>
+                <td>Registration</td>
+                <td><a href="Exp3catalogue.html" style="text-decoration: none;">Catalogue</a></td>
                 <td>Cart</td>
             </tr>
             <tr align="center">
@@ -28,7 +41,9 @@
                         <legend>Login Page</legend>
                         <form>
                             Username: <input type="name" required><br><br>
-                            Password: <input type="password" required><br>
+                            Password: <input type="password" required><br><br>
+                            <button class="shadow-btn">Submit</button>     
+                            <button class="shadow-btn">Reset</button>
                         </form>
                     </fieldset>
                 </td>
