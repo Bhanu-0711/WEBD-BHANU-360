@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 align="center"><u>Registration form</u></h1>
+    <form align="center" class="Form">
+        <table border="0" cellpadding="6" cellspacing="0" align="center">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="Email" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" name="Phone" required></td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td>
+                    <input type="radio" name="sex" value="Male">Male
+                    <input type="radio" name="sex" value="Female">Female
+                    <input type="radio" name="sex" value="Others">Others
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth: </td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+            <tr>
+                <td>Languages Known: </td>
+                <td>
+                    <input type="checkbox" name="English">English
+                    <input type="checkbox" name="Hindi">Hindi
+                    <input type="checkbox" name="Telugu">Telugu
+                    <input type="checkbox" name="Tamil">Tamil
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="Address" placeholder="Enter your address: "></textarea></td>
+            </tr>
+        </table>
+        <div class="action">
+            <button class="button">Submit</button>
+            <button class="button">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
